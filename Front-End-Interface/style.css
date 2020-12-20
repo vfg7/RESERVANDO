@@ -1,0 +1,108 @@
+body, ul, li, p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    -webkit-box-align: center;
+    align-items: center;
+}
+body {
+    background-image: url(https://pixabay.com/get/55e6d6414b54ae14f6d1867dda3536781537daed5754714b_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.pagina {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+.navbar .logo {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 1.4rem;
+}
+.navbar-nav, .navbar .form-inline {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+}
+.navbar-nav li a {
+    margin-left: 30px;
+    padding: 10px;
+}
+.titulos {
+    font-family: 'Hammersmith One', sans-serif;
+    margin-top: 12vh;
+    width: 650px;
+    max-width: 80vw;
+    padding: 20px 15px 0px 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+.text-center {
+    font-family: 'Nunito', sans-serif;
+    background-color: #ffffffc7;
+    margin-top: 2vh;
+    width: 450px;
+    max-width: 80vw;
+    padding: 20px 15px 0px 15px;
+    border-radius: 8px;
+}
+.btn, .text-center h1, .text-center a, .cadastro h1, .reservas h1 {
+    font-family: 'Hammersmith One', sans-serif;
+    text-align: center;
+    color: #d63232;
+}
+.cadastro {
+    font-family: 'Nunito', sans-serif;
+    background-color: #ffffffc7;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    width: 550px;
+    padding: 20px 15px 20px 15px;
+    border-radius: 8px;
+}
+.reservas {
+    font-family: 'Nunito', sans-serif;
+    background-color: #ffffffd5;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    width: 80%;
+    padding: 20px 15px 20px 15px;
+    border-radius: 8px;
+}
+.cadastro label {
+    font-weight: bold;
+}
+#tabela-reservas {
+    border-collapse: collapse;
+    border: 1px solid #d632326b;
+    width: 100%;
+}
+#tabela-reservas th, td {
+    padding: 8px 15px;
+    border-bottom: 1px solid #d632326b;
+}
+#tabela-reservas tr:nth-child(odd) {
+    background-color: #d6323231;
+}
+.rodape {
+    font-family: 'Hammersmith One', sans-serif;
+    background-color: #000000;
+    opacity: 0.75;
+    width: 100vw;
+    margin-top: auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+.rodape p {
+    color: #ffffffb6;
+    margin-bottom: 0;
+    margin: 5px;
+    font-size: small;
+}
